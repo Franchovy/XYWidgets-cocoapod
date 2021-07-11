@@ -1,0 +1,16 @@
+PODS:
+  - XYWidgets (0.1.0)
+
+DEPENDENCIES:
+  - XYWidgets (from `../`)
+
+EXTERNAL SOURCES:
+  XYWidgets:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYWidgets: fefa520751c35636f40e2143571299f36f44ca08
+
+PODFILE CHECKSUM: 3e2b7c03c796e6ccba9462e22248b1b2baa4230f
+
+COCOAPODS: 1.10.1

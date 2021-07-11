@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import XYWidgets
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var xyButton: XYButton?
+    @IBOutlet weak var normalButton: UIButton?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        normalButton?.setTitle("Normal Button", for: .normal)
+        xyButton?.setTitle("XY Button", for: .normal)
+        
+        xyButton?.backgroundColor = .blue
+        xyButton?.borderGradient = [.blue, .green, .white, .yellow]
     }
 
     override func didReceiveMemoryWarning() {
